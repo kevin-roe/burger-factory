@@ -3,6 +3,6 @@ public class Main {
         BurgerStore store = new MyBurgerStore();
 
         // TODO: Make some burgers!
-        Burger burger = store.makeBurger(BurgerType.IMAGINARY); // huh?
+        Burger burger = store.orderBurger(BurgerType.IMAGINARY); // huh?
     }
 }
