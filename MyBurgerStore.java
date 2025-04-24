@@ -1,8 +1,7 @@
 public class MyBurgerStore extends BurgerStore {
     @Override
-    protected Burger makeBurger(String type) {
-
-        // Burger things here!
+    protected Burger makeBurger(BurgerType type) {
+        // Burger Factory here!
 
         throw new IllegalArgumentException("Unknown burger: " + type);
     }

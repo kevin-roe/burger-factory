@@ -1,5 +1,5 @@
 public abstract class BurgerStore {
-    public Burger orderBurger(String type) {
+    public Burger orderBurger(BurgerType type) {
         Burger burger = makeBurger(type);
         burger.prepare();
         burger.cook();
@@ -7,5 +7,5 @@ public abstract class BurgerStore {
         return burger;
     }
 
-    abstract Burger makeBurger(String type);
+    abstract Burger makeBurger(BurgerType type);
 }
